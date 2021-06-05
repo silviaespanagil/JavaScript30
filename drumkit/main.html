@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>DrumKit</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="keyArea">
+        <div class="key" data-key="65">
+          <kbd class="letter">A</kbd>
+          <span class="sound">Alligator</span>
+        </div>
+        <div class="key" data-key="66">
+          <kbd class="letter">B</kbd>
+          <span class="sound">Birds</span>
+        </div>
+        <div class="key" data-key="67">
+          <kbd class="letter">C</kbd>
+          <span class="sound">Cat</span>
+        </div>
+        </div>
+      </section>
+      <section>
+        <audio class="audio" data-key="65" src="./sounds/a.mp3"></audio>
+
+        <audio class="audio" data-key="66" src="./sounds/b.wav"></audio>
+        
+        <audio class="audio" data-key="67" src="./sounds/c.mp3"></audio>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
+<!--Sound from Zapsplat.com-->
