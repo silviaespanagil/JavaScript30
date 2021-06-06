@@ -1,8 +1,11 @@
 "use strict";
+
 console.log("js ok");
+
 const secondHand = document.querySelector(".js-second-hand");
 const minuteHand = document.querySelector(".js-min-hand");
 const hourHand = document.querySelector(".js-hour-hand");
+
 function setTime() {
   const now = new Date();
   const seconds = now.getSeconds();
@@ -17,4 +20,4 @@ function setTime() {
   console.log(hours, minutes, seconds);
 }
 
-hourHand.setInterval(setTime, 1000);
+setInterval(setTime, 1000);
