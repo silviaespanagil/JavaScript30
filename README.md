@@ -19,7 +19,13 @@ If a key is selected the corresponding card will be  highligthed until the sound
 
 If you want to check it out, here's [a little video ](https://drive.google.com/file/d/1n2c1bkdPlsDnuXKuXaq42o301h0QIwGh/preview)
 
+### Day two: A clock 🕑 
 
+Well, this is pretty self explanatory but we were ask develop a clock with an hour, minute and second hand. This exercise I was not able to do it without the tutoria, mainly because of the math behind 🧮(lol) and because  of a CSS property I had never worked before: transform-origin. This property allow you to move the center of gravity of an element so that if you transform it like I did with the rotation property it will rotate not from the center but from one of the ends.
+
+#### Want to take a look? 👁️‍🗨️
+
+As always I did a mini gif so you can check it out without runing the proyect, I promise, it runs hours, minutes and seconds by the clock <img src="https://user-images.githubusercontent.com/81619759/120921576-9aec5000-c6c4-11eb-81cb-2ea4b8579124.gif" height="250"/> 
 
 ## Want to clone my repository? 🐑🐑
 
